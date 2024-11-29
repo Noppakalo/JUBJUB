@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NVIDAI Marketplace United States of America</title>
+    <link rel="icon" href="logo/nvidia-icon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header-main">
+      <nav class="navbar-main">
+        <div class="main-container">
+          <div class="nvidia-logo">
+            <img
+              src="logo/nvidia-logo.svg"
+              alt="nvidia-logo"
+              width="110"
+              height="auto"
+            />
+          </div>
+          <div class="navbar-menu">
+            <ul class="navbar-left">
+              <li>Products</li>
+              <li>Solutions</li>
+              <li>Industries</li>
+              <li>For You</li>
+            </ul>
+            <ul class="navbar-right">
+              <a href="https://marketplace.nvidia.com/en-us/"><li>Shop</li></a>
+              <a href="https://www.nvidia.com/en-us/drivers/"
+                ><li>Drivers</li></a
+              >
+              <a href="https://www.nvidia.com/en-us/support/"
+                ><li>Suppot</li></a
+              >
+            </ul>
+          </div>
+          <div class="nav-tool">
+            <i class="fa-solid fa-magnifying-glass" style="color: gray"></i>
+            <i
+              class="fa-regular fa-circle-user"
+              onclick=""
+              style="color: gray"
+            ></i>
+            <div class="dropdown-menu">
+              <a href="https://www.nvidia.com/en-us/account/edit-profile/"
+                >NVIDIA Account</a
+              >
+              <a
+                href="https://buy.nvidia.com/store;jsessionid=8F49BC2DCA93C366F7FA315ED9D81A39?Action=DisplayPage&Locale=en_US&SiteID=nvidia&id=HelpPage"
+                >NVIDIA Store Account</a
+              >
+            </div>
+          </div>
+          <div class="hamburger-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar-sec">
+        <div class="sec-container">
+          <a href="https://marketplace.nvidia.com/en-us/"
+            ><h1>Marketplace</h1></a
+          >
+          <div class="sec-nev">
+            <p>Products</p>
+            <p>Support</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="slide-container">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="image/data-center-bb300.jpg" alt="datacenter" />
+            <div class="text-slide">
+              <h1>Date Center</h1>
+              <h3>Take AI to the Edge</h3>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/geforce-4090.jpg" alt="geforce4090" />
+            <div class="text-slide">
+              <h3>GeForce RTX 40 Series</h3>
+              <h1>BEYOND FAST</h1>
+              <button>Shop Now</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/jetson-nano-shop.jpg" alt="jetsonnanoshop" />
+            <div class="text-slide">
+              <h3>GeForce RTX 40 Series</h3>
+              <h1>BEYOND FAST</h1>
+              <button>Shop Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="dot-slide">
+          <span class="dot" onclick="changeSlide(0)"></span>
+          <span class="dot" onclick="changeSlide(1)"></span>
+          <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+      </div>
+      <script>
+        let carousel = 0;
+      </script>
+      <div class="product-container">
+        <div class="main-product">
+          <h2><b>Enterprise</b></h2>
+          <div class="title-product">
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/enterprise/data-center/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/data-center.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/data-center/"
+                  ><h3><b>Cloud & Dara Center</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/data-center/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/workstation.png"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/"
+                  ><h3><b>RTX Workstations</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/embeddedSystems.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/"
+                  ><h3><b>Robotics & Edge</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/enterprise/software/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/softwareTablets.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/software/"
+                  ><h3><b>Software</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/software/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/enterprise/cloud-solutions/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/cloudSolutions.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/cloud-solutions/"
+                  ><h3><b>Cloud Solutions</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/cloud-solutions/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/enterprise/cloud-solutions/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/networking.png"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/cloud-solutions/"
+                  ><h3><b>Networking</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/cloud-solutions/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-product">
+          <h2><b>Gaming and Creating</b></h2>
+          <div class="title-product">
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/consumer/graphics-cards/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/geforce-ada-40-series-gf-spotlight-600x338-p@2x.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/graphics-cards/"
+                  ><h3><b>Graphics Cards</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/enterprise/data-center/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/consumer/gaming-desktops/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/geforce-rtx-40-series-desktop-2-ari.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/gaming-desktops/"
+                  ><h3><b>Gaming Desktops</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/gaming-desktops/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/consumer/gaming-laptops/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/gaming-laptop.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/gaming-laptops/"
+                  ><h3><b>Gaming Laptops</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/gaming-laptops/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/consumer/gaming-monitors/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/nvidia-g-sync-gaming-monitors-ari.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/gaming-monitors/"
+                  ><h3><b>Gaming Monitors</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/gaming-monitors/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://store.nvidia.com/en-us/studio/store/?page=1&limit=9&locale=en-us&category=Desktop"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/nvidia-studio-desktop-dark-ari.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://store.nvidia.com/en-us/studio/store/?page=1&limit=9&locale=en-us&category=Desktop"
+                  ><h3><b>Studio Desktops</b></h3></a
+                >
+                <a
+                  href="https://store.nvidia.com/en-us/studio/store/?page=1&limit=9&locale=en-us&category=Desktop"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+            <div class="img-product">
+              <a
+                href="https://marketplace.nvidia.com/en-us/consumer/studio-laptops/"
+                ><img
+                  src="https://marketplace.nvidia.com/assets/images/nvidia-studio-laptop-dark-ari.jpg"
+                  alt="clound data"
+              /></a>
+              <div class="content-product">
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/studio-laptops/"
+                  ><h3><b>Studio Laptops</b></h3></a
+                >
+                <a
+                  href="https://marketplace.nvidia.com/en-us/consumer/studio-laptops/"
+                >
+                  <p><b>Shop Now</b><i class="fa fa-angle-right"></i></p
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pro-container">
+        <div class="pro-banner">
+          <div class="text-banner">
+            <h2>NVIDIA Deep Learning Institute</h2>
+            <h3>
+              Education and Training Solutions to Solve the World's Most
+              Challenging Problems
+            </h3>
+            <a href="https://www.nvidia.com/en-us/training/online/"
+              ><button>Get Online Training</button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="link-container">
+        <div class="text-link">
+          <a
+            href="https://buy.nvidia.com/store;jsessionid=DB3077E5ADB82AD0943213BCE8D90F6F?Action=DisplayPage&Env=BASE&Locale=en_US&SiteID=nvidia&id=HelpPage"
+            >NVIDIA Product Support</a
+          >
+          <span class="symbol">|</span>
+          <a href="https://order.store.nvidia.com/support/"
+            >Partner Product Support</a
+          >
+          <span class="symbol">|</span>
+          <a href="https://www.nvidia.com/en-us/support/">Technical Support</a>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-main">
+            <div class="logo-region">
+              <div class="nvidia-logo">
+                <img
+                  src="logo/nvidia-logo black.svg"
+                  alt="nvidia-logo"
+                  width="110"
+                  height="auto"
+                />
+              </div>
+              <p class="region">USA - United States</p>
+            </div>
+            <ul class="footer-link">
+              <li>
+                <a
+                  href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </li>
+              <span class="symbol">|</span>
+              <li>
+                <a
+                  href="https://www.nvidia.com/en-us/about-nvidia/terms-of-service/"
+                  >Terms of Service</a
+                >
+              </li>
+              <span class="symbol">|</span>
+              <li>
+                <a
+                  href="https://www.nvidia.com/en-us/about-nvidia/company-policies/"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+            <div class="copyright">
+              <p>Copyright © 2024 NVIDIA Corporation</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
